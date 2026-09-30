@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3B1E54">
+
+  <title>Mini Donas Leidy | Mini Donas Personalizadas</title>
+  <meta name="description" content="Mini Donas Leidy: mini donas personalizadas con las salsas y toppings que más te gustan. Elige tu presentación, arma tu pedido y recíbelo a domicilio o recoge en el punto. Pide por WhatsApp.">
+  <meta name="keywords" content="mini donas Leidy, mini donas, mini donas personalizadas, donas con toppings, pedidos de mini donas, mini donas a domicilio">
+  <meta name="author" content="Mini Donas Leidy">
+  <link rel="canonical" href="./index.html">
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mini Donas Leidy">
+  <meta property="og:title" content="Mini Donas Leidy | Mini Donas Personalizadas">
+  <meta property="og:description" content="Pequeños bocados, grandes momentos. Elige tus mini donas, combina tus salsas y toppings favoritos y arma tu pedido a tu manera.">
+  <meta property="og:image" content="assets/img/hero-mini-donas.svg">
+  <meta property="og:locale" content="es_CO">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/img/logo-mini-dona.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Datos estructurados del negocio -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Mini Donas Leidy",
+    "description": "Mini donas personalizadas con salsas y toppings a elección.",
+    "image": "assets/img/hero-mini-donas.svg",
+    "currenciesAccepted": "COP",
+    "priceRange": "$10.000 - $32.000",
+    "telephone": "+573113926463",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Por definir",
+      "addressLocality": "Por definir",
+      "addressCountry": "CO"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#arma-tu-pedido">Saltar al configurador de pedidos</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="inicio">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Mini Donas Leidy, ir al inicio">
+        <img src="assets/img/logo-mini-dona.svg" alt="Logo de Mini Donas Leidy" class="brand__logo" width="48" height="48">
+        <span class="brand__text">
+          <strong>Mini Donas</strong>
+          <span>Leidy</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#inicio">Inicio</a></li>
+          <li><a class="nav__link" href="#mini-donas">Mini Donas</a></li>
+          <li><a class="nav__link nav__link--accent" href="#arma-tu-pedido">Arma tu pedido</a></li>
+          <li><a class="nav__link" href="#como-pedir">¿Cómo pedir?</a></li>
+          <li><a class="nav__link" href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn btn--whatsapp nav__cta" href="https://wa.me/573113926463" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.5.05-.98.24-3.3-.69-2.79-1.1-4.55-3.96-4.69-4.14-.14-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29c.25-.27.55-.34.73-.34l.52.01c.17 0 .4-.07.62.48.24.57.8 1.97.87 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.48l-.42.49c-.14.14-.28.29-.12.57.16.27.72 1.19 1.55 1.93 1.06.95 1.96 1.25 2.23 1.39.28.14.44.12.6-.07.17-.19.7-.82.89-1.1.19-.28.38-.23.63-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.69-.17 1.36z"/></svg>
+          <span>311 392 6463</span>
+        </a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-scrim" id="nav-scrim" hidden></div>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="badge">
+            <span class="badge__dot" aria-hidden="true"></span>
+            Hechas al momento, con mucho cariño
+          </p>
+          <h1 class="hero__title" id="hero-title">MINI DONAS</h1>
+          <p class="hero__subtitle">Pequeños bocados, grandes momentos</p>
+          <p class="hero__text">
+            Elige tus mini donas, combina tus salsas y toppings favoritos y arma tu pedido a tu manera.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#arma-tu-pedido">
+              <span>Armar mi pedido</span>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 4.6a1 1 0 0 1 1.4 0l5 5a1 1 0 0 1 0 1.4l-5 5a1 1 0 0 1-1.4-1.4L16.4 12H4a1 1 0 0 1 0-2h12.4l-3.2-3.2a1 1 0 0 1 0-1.2z" fill="currentColor"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#mini-donas">Ver presentaciones</a>
+          </div>
+
+          <ul class="hero__stats">
+            <li><strong>4</strong><span>Presentaciones</span></li>
+            <li><strong>4</strong><span>Salsas</span></li>
+            <li><strong>8</strong><span>Toppings</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <!-- PLACEHOLDER: reemplazar por una foto real del producto si se desea -->
+          <img src="assets/img/hero-mini-donas.svg"
+               alt="Mini donas de colores con glaseado y sprinkles listos para pedir"
+               class="hero__img" width="520" height="460" fetchpriority="high">
+          <div class="hero__chip hero__chip--1" aria-hidden="true"><span>4 salsas</span></div>
+          <div class="hero__chip hero__chip--2" aria-hidden="true"><span>8 toppings</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRESENTACIONES ================= -->
+    <section class="section presentations" id="mini-donas" aria-labelledby="presentaciones-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Nuestras presentaciones</p>
+          <h2 class="section__title" id="presentaciones-title">Elige tu caja de mini donas</h2>
+          <p class="section__lead">
+            Cada presentación incluye un número de salsas y toppings a tu elección.
+            Tú decides la combinación, nosotros lo decoramos con mucho cariño.
+          </p>
+        </header>
+
+        <!--
+          PLACEHOLDER: las tarjetas se generan desde el array `productos` en script.js.
+          Las imágenes actuales son ilustraciones SVG (assets/img/presentacion-x6.svg, x12, x20, x24).
+          Para usar fotos reales, reemplaza esos archivos por fotos con el mismo nombre
+          o cambia la propiedad `imagen` de cada topping/salsa en script.js.
+        -->
+        <div class="presentations__grid" id="presentaciones-grid"></div>
+
+        <p class="presentations__note">
+          ¿Necesitas otra cantidad? Escríbenos y te cotizamos sin compromiso.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= CONFIGURADOR ================= -->
+    <section class="section configurator" id="arma-tu-pedido" aria-labelledby="configurador-title">
+      <div class="container">
+
+        <header class="section__head">
+          <p class="eyebrow">Arma tu pedido</p>
+          <h2 class="section__title" id="configurador-title">ARMA TU PEDIDO</h2>
+          <p class="section__lead">Cuatro pasos sencillos y tu pedido queda listo para enviar por WhatsApp.</p>
+        </header>
+
+        <!-- Indicador de pasos -->
+        <ol class="stepper" id="stepper" aria-label="Progreso del pedido">
+          <li class="stepper__item is-active" data-step="1"><span class="stepper__num">1</span><span class="stepper__label">Elige</span></li>
+          <li class="stepper__item" data-step="2"><span class="stepper__num">2</span><span class="stepper__label">Personaliza</span></li>
+          <li class="stepper__item" data-step="3"><span class="stepper__num">3</span><span class="stepper__label">Entrega</span></li>
+          <li class="stepper__item" data-step="4"><span class="stepper__num">4</span><span class="stepper__label">Confirma</span></li>
+          <div class="stepper__bar" aria-hidden="true"><span id="stepper-bar-fill"></span></div>
+        </ol>
+
+        <div class="configurator__layout">
+
+          <!-- ---------- Columna de pasos ---------- -->
+          <div class="configurator__main">
+
+            <!-- PASO 1 -->
+            <section class="panel is-active" id="panel-1" data-panel="1" aria-labelledby="step1-title">
+              <h3 class="panel__title" id="step1-title"><span class="panel__badge">1</span> Elige tu cantidad</h3>
+              <p class="panel__hint">Selecciona la presentación que vas a pedir.</p>
+              <div class="options options--qty" id="options-qty" role="group" aria-label="Cantidad de mini donas"></div>
+            </section>
+
+            <!-- PASO 2 -->
+            <section class="panel" id="panel-2" data-panel="2" aria-labelledby="step2-title" hidden>
+              <h3 class="panel__title" id="step2-title"><span class="panel__badge">2</span> Personaliza con salsas y toppings</h3>
+              <p class="panel__hint">Toca las opciones que quieras incluir en tu pedido.</p>
+
+              <!-- Salsas -->
+              <div class="subsection">
+                <div class="subsection__head">
+                  <h4 class="subsection__title">🥫 Elige tus salsas</h4>
+                  <span class="counter" id="salsas-counter" role="status" aria-live="polite">Salsas seleccionadas: 0 / 0</span>
+                </div>
+                <div class="grid-salsas" id="salsas-grid" role="group" aria-label="Salsas"></div>
+              </div>
+
+              <!-- Toppings -->
+              <div class="subsection">
+                <div class="subsection__head">
+                  <h4 class="subsection__title">🍫 Elige tus toppings</h4>
+                  <span class="counter" id="toppings-counter" role="status" aria-live="polite">Toppings seleccionados: 0 / 0</span>
+                </div>
+                <!-- Para agregar más toppings: edita el array `toppings` en script.js -->
+                <div class="grid-toppings" id="toppings-grid" role="group" aria-label="Toppings"></div>
+              </div>
+            </section>
+
+            <!-- PASO 3 -->
+            <section class="panel" id="panel-3" data-panel="3" aria-labelledby="step3-title" hidden>
+              <h3 class="panel__title" id="step3-title"><span class="panel__badge">3</span> ¿Cómo quieres recibir tu pedido?</h3>
+              <p class="panel__hint">Elige la modalidad y completa los datos de entrega.</p>
+
+              <div class="delivery-modes" role="radiogroup" aria-label="Modalidad de entrega">
+                <button type="button" class="mode" data-mode="recoger" role="radio" aria-checked="false">
+                  <span class="mode__emoji" aria-hidden="true">🛍️</span>
+                  <span class="mode__name">Recoger</span>
+                  <span class="mode__desc">Retíralo en el punto y a la hora que elijas.</span>
+                  <span class="mode__check" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="mode" data-mode="domicilio" role="radio" aria-checked="false">
+                  <span class="mode__emoji" aria-hidden="true">🚗</span>
+                  <span class="mode__name">Domicilio</span>
+                  <span class="mode__desc">Te lo llevamos hasta la puerta de tu casa.</span>
+                  <span class="mode__check" aria-hidden="true"></span>
+                </button>
+              </div>
+
+              <form class="form" id="form-entrega" novalidate>
+
+                <div class="field">
+                  <label class="field__label" for="nombre">Nombre de quien realiza el pedido <span aria-hidden="true">*</span></label>
+                  <input class="field__input" type="text" id="nombre" name="nombre" placeholder="Ej: Leidy Rodríguez" autocomplete="name" maxlength="80">
+                  <p class="field__error" data-error-for="nombre" role="alert"></p>
+                </div>
+
+                <!-- Campos exclusivos de domicilio -->
+                <div class="fields-domicilio" id="fields-domicilio" hidden>
+                  <div class="field">
+                    <label class="field__label" for="recibe">Nombre de quien recibe <span aria-hidden="true">*</span></label>
+                    <input class="field__input" type="text" id="recibe" name="recibe" placeholder="Ej: Ana Martínez" maxlength="80">
+                    <p class="field__error" data-error-for="recibe" role="alert"></p>
+                  </div>
+
+                  <div class="field-row">
+                    <div class="field">
+                      <label class="field__label" for="direccion">Dirección <span aria-hidden="true">*</span></label>
+                      <input class="field__input" type="text" id="direccion" name="direccion" placeholder="Ej: Calle 24 # 18-45" autocomplete="street-address" maxlength="120">
+                      <p class="field__error" data-error-for="direccion" role="alert"></p>
+                    </div>
+                    <div class="field">
+                      <label class="field__label" for="barrio">Barrio <span aria-hidden="true">*</span></label>
+                      <input class="field__input" type="text" id="barrio" name="barrio" placeholder="Ej: Centro" maxlength="80">
+                      <p class="field__error" data-error-for="barrio" role="alert"></p>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="field__label" for="referencia">Referencia del lugar</label>
+                    <input class="field__input" type="text" id="referencia" name="referencia" placeholder="Ej: Portería azul, al lado del parque" maxlength="140">
+                    <p class="field__error" data-error-for="referencia" role="alert"></p>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="field__label" for="hora">Hora <span aria-hidden="true">*</span></label>
+                  <input class="field__input field__input--time" type="time" id="hora" name="hora">
+                  <p class="field__hint" id="hora-preview">Selecciona la hora para recibir o recoger tu pedido.</p>
+                  <p class="field__error" data-error-for="hora" role="alert"></p>
+                </div>
+
+                <div class="field">
+                  <label class="field__label" for="observaciones">Observaciones</label>
+                  <textarea class="field__input field__textarea" id="observaciones" name="observaciones" rows="3" maxlength="300" placeholder="Escribe aquí alguna indicación especial para tu pedido..."></textarea>
+                  <p class="field__error" data-error-for="observaciones" role="alert"></p>
+                </div>
+              </form>
+            </section>
+
+            <!-- PASO 4 -->
+            <section class="panel" id="panel-4" data-panel="4" aria-labelledby="step4-title" hidden>
+              <h3 class="panel__title" id="step4-title"><span class="panel__badge">4</span> Revisa y confirma</h3>
+              <p class="panel__hint">Revisa los detalles. Al confirmar abriremos WhatsApp con tu pedido listo para enviar.</p>
+
+              <div class="confirm" id="confirm"></div>
+
+              <button class="btn btn--whatsapp btn--lg btn--block" id="btn-enviar" type="button">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.5.05-.98.24-3.3-.69-2.79-1.1-4.55-3.96-4.69-4.14-.14-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29c.25-.27.55-.34.73-.34l.52.01c.17 0 .4-.07.62.48.24.57.8 1.97.87 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.48l-.42.49c-.14.14-.28.29-.12.57.16.27.72 1.19 1.55 1.93 1.06.95 1.96 1.25 2.23 1.39.28.14.44.12.6-.07.17-.19.7-.82.89-1.1.19-.28.38-.23.63-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.69-.17 1.36z"/></svg>
+                <span>Pedir por WhatsApp</span>
+              </button>
+
+              <p class="confirm__hint">Te llevaremos a WhatsApp con el mensaje del pedido ya escrito.</p>
+            </section>
+
+            <!-- Navegación entre pasos -->
+            <div class="steps-nav">
+              <button class="btn btn--ghost" id="btn-volver" type="button" hidden>
+                <svg class="icon icon--flip" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 4.6a1 1 0 0 1 1.4 0l5 5a1 1 0 0 1 0 1.4l-5 5a1 1 0 0 1-1.4-1.4L16.4 12H4a1 1 0 0 1 0-2h12.4l-3.2-3.2a1 1 0 0 1 0-1.2z" fill="currentColor"/></svg>
+                <span>Atrás</span>
+              </button>
+              <button class="btn btn--primary steps-nav__next" id="btn-continuar" type="button">
+                <span>Continuar</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 4.6a1 1 0 0 1 1.4 0l5 5a1 1 0 0 1 0 1.4l-5 5a1 1 0 0 1-1.4-1.4L16.4 12H4a1 1 0 0 1 0-2h12.4l-3.2-3.2a1 1 0 0 1 0-1.2z" fill="currentColor"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- ---------- Resumen sticky ---------- -->
+          <aside class="summary" id="summary" aria-labelledby="summary-title">
+            <div class="summary__card">
+              <h3 class="summary__title" id="summary-title"><span aria-hidden="true">🍩</span> Tu pedido</h3>
+              <div class="summary__body" id="summary-body" aria-live="polite"></div>
+              <p class="summary__empty" id="summary-empty">Aún no has elegido nada. Empieza seleccionando la cantidad de mini donas.</p>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CÓMO PEDIR ================= -->
+    <section class="section how" id="como-pedir" aria-labelledby="how-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">¿Cómo pedir?</p>
+          <h2 class="section__title" id="how-title">Pedir es muy fácil</h2>
+          <p class="section__lead">Cuatro pasos desde tu celular y listo.</p>
+        </header>
+
+        <ol class="how__grid">
+          <li class="how__card">
+            <span class="how__num" aria-hidden="true">1</span>
+            <h3 class="how__title">Elige tu presentación</h3>
+            <p class="how__text">X6, X12, X20 o X24 según para cuántas personas sea.</p>
+          </li>
+          <li class="how__card">
+            <span class="how__num" aria-hidden="true">2</span>
+            <h3 class="how__title">Personaliza</h3>
+            <p class="how__text">Escoge tus salsas y toppings favoritos hasta el máximo de tu caja.</p>
+          </li>
+          <li class="how__card">
+            <span class="how__num" aria-hidden="true">3</span>
+            <h3 class="how__title">Elige entrega</h3>
+            <p class="how__text">Recoge en el punto o pide a domicilio con tu dirección.</p>
+          </li>
+          <li class="how__card">
+            <span class="how__num" aria-hidden="true">4</span>
+            <h3 class="how__title">Confirma por WhatsApp</h3>
+            <p class="how__text">Te escribimos el pedido listo. Solo presionas enviar.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="section contact" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__card">
+          <div class="contact__blob" aria-hidden="true"></div>
+          <div class="contact__content">
+            <p class="eyebrow eyebrow--light">Contacto</p>
+            <h2 class="section__title section__title--light" id="contact-title">¿Listo para pedir?</h2>
+            <p class="contact__text">Escríbenos y armamos tu pedido juntos. Respondemos muy pronto 💜</p>
+
+            <div class="contact__actions">
+              <a class="btn btn--whatsapp btn--lg" href="https://wa.me/573113926463" target="_blank" rel="noopener">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.5.05-.98.24-3.3-.69-2.79-1.1-4.55-3.96-4.69-4.14-.14-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29c.25-.27.55-.34.73-.34l.52.01c.17 0 .4-.07.62.48.24.57.8 1.97.87 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.48l-.42.49c-.14.14-.28.29-.12.57.16.27.72 1.19 1.55 1.93 1.06.95 1.96 1.25 2.23 1.39.28.14.44.12.6-.07.17-.19.7-.82.89-1.1.19-.28.38-.23.63-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.69-.17 1.36z"/></svg>
+                <span>Escribir al 311 392 6463</span>
+              </a>
+              <a class="btn btn--outline-light btn--lg" href="#arma-tu-pedido">Armar mi pedido</a>
+            </div>
+
+            <ul class="contact__data">
+              <li>
+                <span class="contact__label">WhatsApp</span>
+                <span class="contact__value">311 392 6463</span>
+              </li>
+              <li>
+                <span class="contact__label">Entregas</span>
+                <span class="contact__value">A domicilio y en el punto</span>
+              </li>
+              <!--
+                PLACEHOLDER: datos de ubicación, horarios y redes del negocio.
+                Reemplaza "Por definir" cuando tengas la información real.
+              -->
+              <li class="contact__placeholder">
+                <span class="contact__label">Ubicación y horarios</span>
+                <span class="contact__value">Por definir</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="brand brand--footer" href="#inicio">
+        <img src="assets/img/logo-mini-dona.svg" alt="Logo de Mini Donas Leidy" class="brand__logo" width="44" height="44">
+        <span class="brand__text">
+          <strong>Mini Donas</strong>
+          <span>Leidy</span>
+        </span>
+      </a>
+
+      <nav class="site-footer__nav" aria-label="Menú del pie de página">
+        <a href="#mini-donas">Mini Donas</a>
+        <a href="#arma-tu-pedido">Arma tu pedido</a>
+        <a href="#como-pedir">¿Cómo pedir?</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <p class="site-footer__copy">© <span id="year">2026</span> Mini Donas Leidy. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ================= UI MÓVIL ================= -->
+  <!-- Barra fija inferior: mantiene el total y el resumen siempre accesibles -->
+  <div class="mobilebar" id="mobilebar" hidden>
+    <button class="mobilebar__info" id="btn-ver-pedido" type="button" aria-expanded="false" aria-controls="sheet-summary">
+      <span class="mobilebar__label">Tu pedido</span>
+      <strong class="mobilebar__total" id="mobile-total">$0</strong>
+    </button>
+    <button class="btn btn--primary mobilebar__cta" id="btn-continuar-movil" type="button">Continuar</button>
+  </div>
+
+  <!-- Hoja inferior con el resumen (móvil) -->
+  <div class="sheet" id="sheet-summary" hidden>
+    <div class="sheet__scrim" data-close-sheet></div>
+    <div class="sheet__panel" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+      <div class="sheet__handle" aria-hidden="true"></div>
+      <h3 class="sheet__title" id="sheet-title">🍩 Tu pedido</h3>
+      <div id="summary-body-mobile"></div>
+      <button class="btn btn--ghost btn--block" type="button" data-close-sheet>Cerrar</button>
+    </div>
+  </div>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="fab-whatsapp" href="https://wa.me/573113926463" target="_blank" rel="noopener" aria-label="Escribir a Mini Donas Leidy por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.5.05-.98.24-3.3-.69-2.79-1.1-4.55-3.96-4.69-4.14-.14-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29c.25-.27.55-.34.73-.34l.52.01c.17 0 .4-.07.62.48.24.57.8 1.97.87 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.48l-.42.49c-.14.14-.28.29-.12.57.16.27.72 1.19 1.55 1.93 1.06.95 1.96 1.25 2.23 1.39.28.14.44.12.6-.07.17-.19.7-.82.89-1.1.19-.28.38-.23.63-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.69-.17 1.36z"/></svg>
+  </a>
+
+  <!-- Notificaciones (reemplazan las alertas del navegador) -->
+  <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
