@@ -9,9 +9,9 @@
 
   const NEGOCIO = {
     nombre: 'Mini Donas Leidy',
-    // Número en formato internacional de Colombia (57 + 10 dígitos, sin guiones ni espacios).
-    // No se muestra en pantalla: todos los botones enlazan directo a wa.me.
-    whatsapp: '573113926463'
+    // Número en formato internacional de Colombia (57 + 10 dígitos, sin guiones ni espacios)
+    whatsapp: '573113926463',
+    whatsappVisible: '311 392 6463'
   };
 
   /* Presentaciones disponibles.
@@ -845,26 +845,17 @@
 
   function abrirMenu() {
     nav.classList.add('is-open');
-    nav.removeAttribute('inert');
-    nav.setAttribute('aria-hidden', 'false');
     hamburger.setAttribute('aria-expanded', 'true');
     hamburger.setAttribute('aria-label', 'Cerrar menú');
     scrim.hidden = false;
     document.body.classList.add('is-locked');
-    const primero = nav.querySelector('.nav__link');
-    if (primero) primero.focus();
   }
   function cerrarMenu() {
     nav.classList.remove('is-open');
-    /* Sin esto los enlaces del menú cerrado seguían siendo tabulables
-       aunque el panel esté fuera de pantalla. */
-    nav.setAttribute('aria-hidden', 'true');
-    nav.setAttribute('inert', '');
     hamburger.setAttribute('aria-expanded', 'false');
     hamburger.setAttribute('aria-label', 'Abrir menú');
     scrim.hidden = true;
     document.body.classList.remove('is-locked');
-    hamburger.focus();
   }
   hamburger.addEventListener('click', () => (nav.classList.contains('is-open') ? cerrarMenu() : abrirMenu()));
   scrim.addEventListener('click', cerrarMenu);
