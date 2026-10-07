@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="lgDona" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0C48F"/>
+      <stop offset="1" stop-color="#E0A567"/>
+    </linearGradient>
+    <linearGradient id="lgGlase" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#C9A7F0"/>
+      <stop offset="1" stop-color="#9B6BD6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="62" r="54" fill="#C9A7F0"/>
+  <circle cx="60" cy="58" r="56" fill="url(#lgDona)"/>
+  <path d="M8 58 A52 52 0 0 1 112 58 Q104 74 90 63 Q78 53 66 65 Q54 77 42 65 Q30 53 18 68 Q10 74 8 58 Z" fill="url(#lgGlase)"/>
+  <circle cx="60" cy="58" r="18" fill="#FFF6EC"/>
+  <g fill="#FFFFFF" opacity=".9">
+    <rect x="34" y="30" width="12" height="4" rx="2" transform="rotate(-18 40 32)"/>
+    <rect x="70" y="26" width="12" height="4" rx="2" transform="rotate(24 76 28)"/>
+    <rect x="80" y="44" width="12" height="4" rx="2" transform="rotate(-32 86 46)"/>
+    <rect x="46" y="80" width="12" height="4" rx="2" transform="rotate(12 52 82)"/>
+  </g>
+  <path d="M96 22c3.2 0 5 2.2 5 5 0 3.6-5 7-5 7s-5-3.4-5-7c0-2.8 1.8-5 5-5z" fill="#FF8FC7"/>
+</svg>

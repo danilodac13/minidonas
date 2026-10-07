@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" width="520" height="460" role="img" aria-label="Mini donas de colores con glaseado y sprinkles">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#F3E1FF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C894"/><stop offset="1" stop-color="#DFA468"/>
+    </linearGradient>
+    <linearGradient id="gA" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#E0B8FF"/><stop offset="1" stop-color="#A66FE0"/>
+    </linearGradient>
+    <linearGradient id="dB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7D9B4"/><stop offset="1" stop-color="#E3B27E"/>
+    </linearGradient>
+    <linearGradient id="gB" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#FFC3E2"/><stop offset="1" stop-color="#F07FB6"/>
+    </linearGradient>
+    <linearGradient id="gC" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#A9E7F5"/><stop offset="1" stop-color="#5FBBD8"/>
+    </linearGradient>
+    <linearGradient id="gD" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#FFE9A8"/><stop offset="1" stop-color="#F0B84C"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="260" cy="215" rx="250" ry="215" fill="url(#halo)"/>
+
+  <!-- dona trasera izquierda -->
+  <g transform="translate(112 120)">
+    <circle cx="0" cy="8" r="76" fill="#D8C6E8" opacity=".45"/>
+    <circle cx="0" cy="0" r="74" fill="url(#dA)"/>
+    <path d="M-70 0 A70 70 0 0 1 70 0 Q60 22 42 8 Q26 -6 10 10 Q-6 26 -22 8 Q-38 -8 -54 12 Q-64 22 -70 0 Z" fill="url(#gA)"/>
+    <circle cx="0" cy="0" r="24" fill="#FFF6EC"/>
+    <g fill="#FFFFFF" opacity=".85">
+      <rect x="-38" y="-42" width="14" height="5" rx="2.5" transform="rotate(-18 -31 -40)"/>
+      <rect x="16" y="-50" width="14" height="5" rx="2.5" transform="rotate(24 23 -47)"/>
+      <rect x="34" y="-16" width="14" height="5" rx="2.5" transform="rotate(-32 41 -14)"/>
+    </g>
+  </g>
+
+  <!-- dona trasera derecha -->
+  <g transform="translate(408 122)">
+    <circle cx="0" cy="8" r="74" fill="#D8C6E8" opacity=".45"/>
+    <circle cx="0" cy="0" r="72" fill="url(#dB)"/>
+    <path d="M-68 0 A68 68 0 0 1 68 0 Q58 22 40 8 Q24 -6 8 10 Q-8 26 -24 8 Q-40 -8 -56 12 Q-66 22 -68 0 Z" fill="url(#gB)"/>
+    <circle cx="0" cy="0" r="23" fill="#FFF6EC"/>
+    <g fill="#FFFFFF" opacity=".85">
+      <rect x="-36" y="-40" width="14" height="5" rx="2.5" transform="rotate(12 -29 -37)"/>
+      <rect x="14" y="-46" width="14" height="5" rx="2.5" transform="rotate(-20 21 -43)"/>
+      <rect x="30" y="-12" width="14" height="5" rx="2.5" transform="rotate(28 37 -9)"/>
+    </g>
+  </g>
+
+  <!-- dona central -->
+  <g transform="translate(262 250)">
+    <ellipse cx="0" cy="104" rx="96" ry="20" fill="#8B5FB5" opacity=".18"/>
+    <circle cx="0" cy="8" r="94" fill="#D8C6E8" opacity=".5"/>
+    <circle cx="0" cy="0" r="92" fill="url(#dA)"/>
+    <path d="M-88 0 A88 88 0 0 1 88 0 Q76 28 54 10 Q34 -8 12 12 Q-10 32 -32 10 Q-54 -8 -72 16 Q-84 28 -88 0 Z" fill="url(#gA)"/>
+    <circle cx="0" cy="0" r="30" fill="#FFF6EC"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#EFD7BE" stroke-width="3"/>
+    <g fill="#FFFFFF" opacity=".9">
+      <rect x="-58" y="-52" width="18" height="6" rx="3" transform="rotate(-16 -49 -49)"/>
+      <rect x="26" y="-62" width="18" height="6" rx="3" transform="rotate(26 35 -59)"/>
+      <rect x="48" y="-20" width="18" height="6" rx="3" transform="rotate(-30 57 -17)"/>
+      <rect x="-30" y="52" width="18" height="6" rx="3" transform="rotate(14 -21 55)"/>
+      <rect x="-64" y="18" width="18" height="6" rx="3" transform="rotate(38 -55 21)"/>
+    </g>
+    <g fill="#FF8FC7" opacity=".9">
+      <rect x="4" y="-40" width="16" height="6" rx="3" transform="rotate(-8 12 -37)"/>
+      <rect x="-14" y="-14" width="16" height="6" rx="3" transform="rotate(42 -6 -11)"/>
+    </g>
+  </g>
+
+  <!-- dona frontal izquierda -->
+  <g transform="translate(128 330)">
+    <circle cx="0" cy="6" r="66" fill="#D8C6E8" opacity=".45"/>
+    <circle cx="0" cy="0" r="64" fill="url(#dB)"/>
+    <path d="M-60 0 A60 60 0 0 1 60 0 Q52 20 36 7 Q22 -6 8 9 Q-6 23 -20 7 Q-34 -8 -48 11 Q-56 20 -60 0 Z" fill="url(#gC)"/>
+    <circle cx="0" cy="0" r="21" fill="#FFF6EC"/>
+    <g fill="#FFFFFF" opacity=".85">
+      <rect x="-32" y="-36" width="13" height="5" rx="2.5" transform="rotate(16 -25 -33)"/>
+      <rect x="16" y="-40" width="13" height="5" rx="2.5" transform="rotate(-24 22 -37)"/>
+      <rect x="26" y="-6" width="13" height="5" rx="2.5" transform="rotate(8 32 -3)"/>
+    </g>
+  </g>
+
+  <!-- dona frontal derecha -->
+  <g transform="translate(398 336)">
+    <circle cx="0" cy="6" r="66" fill="#D8C6E8" opacity=".45"/>
+    <circle cx="0" cy="0" r="64" fill="url(#dA)"/>
+    <path d="M-60 0 A60 60 0 0 1 60 0 Q52 20 36 7 Q22 -6 8 9 Q-6 23 -20 7 Q-34 -8 -48 11 Q-56 20 -60 0 Z" fill="url(#gD)"/>
+    <circle cx="0" cy="0" r="21" fill="#FFF6EC"/>
+    <g fill="#FFFFFF" opacity=".85">
+      <rect x="-32" y="-36" width="13" height="5" rx="2.5" transform="rotate(-16 -25 -33)"/>
+      <rect x="16" y="-40" width="13" height="5" rx="2.5" transform="rotate(24 22 -37)"/>
+      <rect x="26" y="-6" width="13" height="5" rx="2.5" transform="rotate(-8 32 -3)"/>
+    </g>
+  </g>
+
+  <!-- decoraciones -->
+  <path d="M62 300c4.6 0 7.4 3.2 7.4 7.2 0 5-7.4 10-7.4 10s-7.4-5-7.4-10c0-4 2.8-7.2 7.4-7.2z" fill="#FF8FC7"/>
+  <path d="M470 262c4 0 6.4 2.8 6.4 6.2 0 4.4-6.4 8.8-6.4 8.8s-6.4-4.4-6.4-8.8c0-3.4 2.4-6.2 6.4-6.2z" fill="#C9A7F0"/>
+  <g fill="#D9BCF5">
+    <path d="M240 40l5 14 14 5-14 5-5 14-5-14-14-5 14-5z"/>
+    <path d="M470 400l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+  </g>
+  <g fill="#FFC7E4" opacity=".8">
+    <circle cx="42" cy="90" r="7"/><circle cx="500" cy="90" r="9"/><circle cx="300" cy="46" r="6"/>
+  </g>
+</svg>
